@@ -22,3 +22,96 @@
 [2022-02-07 21:51:06]	[done]
 	build successfully !
 
+[2022-02-07 23:13:38]	[done]
+	build successfully !
+
+[2022-02-09 20:11:55]	[done]
+	build successfully !
+
+[2022-02-09 20:13:34]	[done]
+	build successfully !
+
+[2022-02-09 20:15:55]	[done]
+	build successfully !
+
+[2022-02-09 20:45:36]	[done]
+	build successfully !
+
+[2022-02-09 20:46:53]	[done]
+	build successfully !
+
+[2022-02-09 20:47:09]	[done]
+	build successfully !
+
+[2022-02-09 20:48:23]	[done]
+	build successfully !
+
+[2022-02-09 20:48:37]	compilation failed at : "e:\jiujiu\USART\Core\Src\usart.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\Core\Src\usart.c", line 178: Error:  #167: argument of type "uint8_t" is incompatible with parameter of type "uint8_t *"
+      HAL_UART_Transmit(&huart1,u1_count,4,0xff);
+                                ^
+.\Core\Src\usart.c: 0 warnings, 1 error
+
+[2022-02-09 20:48:50]	[done]
+	build successfully !
+
+[2022-02-09 20:49:03]	[done]
+	build successfully !
+
+[2022-02-09 20:49:38]	[done]
+	build successfully !
+
+[2022-02-09 20:50:11]	[done]
+	build successfully !
+
+[2022-02-09 20:51:20]	[done]
+	build successfully !
+
+[2022-02-09 21:01:36]	compilation failed at : "e:\jiujiu\USART\Core\Src\usart.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\Core\Src\usart.c", line 25: Error:  #147: declaration is incompatible with "int u1_rx" (declared at line 39 of ".\Core\Inc\usart.h")
+  uint8_t u1_rx;
+          ^
+".\Core\Src\usart.c", line 26: Error:  #147: declaration is incompatible with "uint8_t u1_count" (declared at line 40 of ".\Core\Inc\usart.h")
+  int u1_count = 0;
+      ^
+".\Core\Src\usart.c", line 178: Error:  #167: argument of type "int *" is incompatible with parameter of type "uint8_t *"
+      HAL_UART_Transmit(&huart1,&u1_count,32,0xff);
+                                ^
+.\Core\Src\usart.c: 0 warnings, 3 errors
+
+[2022-02-09 21:02:22]	compilation failed at : "e:\jiujiu\USART\Core\Src\usart.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x00104] in <67d11e1b30504dd6babd321425698ba1>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x018f4] in <67d11e1b30504dd6babd321425698ba1>:0 
+---
+".\Core\Src\usart.c", line 178: Error:  #167: argument of type "int *" is incompatible with parameter of type "uint8_t *"
+      HAL_UART_Transmit(&huart1,&u1_count,32,0xff);
+                                ^
+.\Core\Src\usart.c: 0 warnings, 1 error
+
+[2022-02-09 21:02:57]	[done]
+	build successfully !
+
+[2022-02-09 21:03:16]	[done]
+	build successfully !
+
+[2022-02-09 21:15:32]	[done]
+	build successfully !
+
+[2022-02-09 21:16:02]	[done]
+	build successfully !
+
+[2022-02-09 21:20:46]	[done]
+	build successfully !
+
+[2022-02-09 21:31:56]	[done]
+	build successfully !
+
+[2022-02-14 19:17:33]	[done]
+	build successfully !
+
