@@ -99,7 +99,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_UART_Transmit(&huart1,(uint8_t *)"Ð¡¾Á\r\n",8,0xff);
+    //HAL_UART_Transmit(&huart1,(uint8_t *)"Ð¡¾Á\r\n",8,0xff);
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */
